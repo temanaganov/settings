@@ -1,0 +1,68 @@
+{
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.fontSize": 15,
+	"editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
+	"editor.minimap.enabled": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.detectIndentation": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"editor.formatOnSave": true,
+	"editor.smoothScrolling": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+
+	"diffEditor.ignoreTrimWhitespace": false,
+
+	"workbench.colorTheme": "GitHub Dark Dimmed",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.editor.tabCloseButton": "left",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.decorations.badges": false,
+
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+
+	"files.defaultLanguage": "javascript",
+
+	"terminal.integrated.fontSize": 14,
+
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.emptyWindow": false,
+	"security.workspace.trust.startupPrompt": "never",
+
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+
+	"prettier.singleQuote": true,
+	"prettier.semi": true,
+	"prettier.bracketSpacing": true,
+	"prettier.tabWidth": 4,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+	"prettier.trailingComma": "es5",
+	"prettier.arrowParens": "avoid",
+
+	"stylelint.validate": ["scss", "css", "less", "postcss"],
+
+	"liveServer.settings.CustomBrowser": "chrome",
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	"material-icon-theme.activeIconPack": "nest",
+
+	"gitHistory.alwaysPromptRepositoryPicker": true
+}

@@ -1,0 +1,20 @@
+[user]
+	email = artemnaganov10@gmail.com
+	name = Artem Naganov
+[core]
+	editor = nano
+[color]
+	ui = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[alias]
+	acp = "!f() { git add .; git commit -m \"${1}\"; git push origin \"$(git rev-parse --abbrev-ref HEAD)\"; }; f"
+	hist = log --pretty=format:\"%h %ad | %s%d (%an)\" --graph --date=short
+	st = status -s -b
+	ci = commit
+	cim = commit -m
+	co = checkout
+	br = branch
