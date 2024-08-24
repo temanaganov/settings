@@ -3,6 +3,7 @@
 	name = Artem Naganov
 [core]
 	editor = nano
+	autocrlf = input
 [color]
 	ui = true
 [filter "lfs"]
@@ -18,3 +19,9 @@
 	cim = commit -m
 	co = checkout
 	br = branch
+[http]
+	postBuffer = 157286400
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
